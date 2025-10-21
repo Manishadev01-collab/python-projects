@@ -28,7 +28,7 @@ def generate_password():
     while True:
         try:
             length_input = input("Enter the desired password length (minimum 4): ").strip()
-            length = int(length_input)
+            length = int(length_input) 
             if length >= 4:
                 break
             else:
